@@ -29,6 +29,9 @@ export default class Login extends Component {
           <br/>
           <br/>
           <h8>Aun no tienes una cuenta? </h8><a href="/register">registrarme</a>
+            <br/>
+            <br/>
+            <a href="/reset">olvide mi contraseña</a>
           </div>
         </Form>
       </div>
