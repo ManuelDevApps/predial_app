@@ -22,7 +22,7 @@ export default class Login extends Component {
             <Form.Check type="checkbox" label="Remember" />
           </Form.Group>
           <div className="text-end">
-          <Button variant="primary" type="submit" href="/">
+          <Button variant="primary" type="submit" href="/dashboard">
             Login
           </Button>
 

@@ -34,7 +34,7 @@ export default class SignUp extends Component {
             <Form.Control type="password" placeholder="Password" />
           </Form.Group>
           <div className="text-end">
-            <Button variant="primary" type="submit" href="/">
+            <Button variant="primary" type="submit" href="/dashboard">
               Siguiente
             </Button>
 

@@ -22,3 +22,21 @@ body, html, .App, #root, .outer {
   border-radius: 20px;
   border: solid lightgray 1px;
 }
+.boxService{
+  margin: auto;
+}
+.rowService{
+  background: gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.cardInfo{
+  margin: 5px 5px 5px 5px;
+  padding: 5px;
+  border: gray solid 1px;
+  border-radius: 20px;
+}
+.redSocial{
+  width: 40px;
+  height: 40px;
+}

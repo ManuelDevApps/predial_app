@@ -7,6 +7,7 @@ import { Navbar } from "react-bootstrap";
 import { Nav } from "react-bootstrap";
 import { Container } from "react-bootstrap";
 import Page404 from "../Error/PageNotFound";
+import Dashboard from "../dashboard/Dashboard";
 
 export default class Menu extends Component {
   render() {
@@ -33,6 +34,7 @@ export default class Menu extends Component {
           <Route exact path="/" component={Landing} />
           <Route path="/register" component={SignUp} />
           <Route path="/login" component={Login} />
+          <Route exact path="/dashboard" component={Dashboard}/>
           <Route component={Page404} />
         </Switch>
       </Router>

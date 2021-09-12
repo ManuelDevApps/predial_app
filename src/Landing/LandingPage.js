@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container, Image, Row } from "react-bootstrap";
+import {Col, Container, Image, Row} from "react-bootstrap";
 import InfoCards from "../Cards/InfoCards";
 
 export default class Landing extends Component {
@@ -36,12 +36,19 @@ export default class Landing extends Component {
             </p>
           </div>
         </div>
-
-        <Row>
-        <InfoCards />
-        <InfoCards />
-        <InfoCards />
-        </Row>
+          <div className="boxService col-6 col-sm-4 col-md-12">
+              <Row >
+                  <Col>
+                      <InfoCards title="Infonavit" img="https://definicion.de/wp-content/uploads/2009/02/condominio.jpg" des="Revisa tus historial de pagos"/>
+                  </Col>
+                  <Col>
+                      <InfoCards title="Foviste" img="https://i.pinimg.com/originals/9f/d4/65/9fd46570f637ba42c7a40baa18648816.jpg" des="Revisa tus historial de pagos"/>
+                  </Col>
+                  <Col>
+                      <InfoCards title="Hipoteca?" img="https://i.ytimg.com/vi/s9wmWSSOiVU/maxresdefault.jpg" des="ubica una unidad cerca de tu casa"/>
+                  </Col>
+              </Row>
+          </div>
       </div>
     );
   }
